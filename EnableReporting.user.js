@@ -15,7 +15,7 @@
 function inject(callback) {
     const script = document.createElement('script');
     script.setAttribute('bm-name', name); // Passes in the name value
-    script.setAttribute('bm-cStyle', consoleStyle); // Passes in the console style value
+    script.setAttribute('bm-cStyle', 'test'); // Passes in the console style value
     script.textContent = `(${callback})();`;
     document.documentElement?.appendChild(script);
     script.remove();
@@ -49,3 +49,4 @@ inject(() => {
   };
 
 });
+
