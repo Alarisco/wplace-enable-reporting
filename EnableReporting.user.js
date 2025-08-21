@@ -5,6 +5,8 @@
 // @grant
 // @version     1.0.0
 // @author      yeeterlol
+// @updateURL   https://raw.githubusercontent.com/yeeterlol/wplace-enable-reporting/main/EnableReporting.user.js
+// @downloadURL https://raw.githubusercontent.com/yeeterlol/wplace-enable-reporting/main/EnableReporting.user.js
 // @description A userscript to enable the reporting feature on wplace.live
 // @run-at document-body
 // ==/UserScript==
@@ -45,4 +47,5 @@ inject(() => {
     }
     return response;
   };
+
 });
